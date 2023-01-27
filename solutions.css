@@ -64,6 +64,11 @@
 .ex-7-img:hover {
     filter: sepia(1);
     filter: brightness(0.5);
+    
+}
+
+.ex-7-img:hover{
+    transition: filter 2s;
 }
 
 
@@ -75,7 +80,7 @@
 }
 
 .ex-8-img{
-    transition: border-radius 2s;
+    transition: border-radius 2s, filter 2s;
 }
 
 
@@ -89,7 +94,63 @@
 }
 
 .ex-9-img{
-    transition: border-radius 2s, width 3s, heigth 2s;
+    transition: border-radius 2s, width 3s, heigth 2s, filter 5s;
 }
 
+/* EX 10 */
+.ex-10-icon{
+    animation: 2s infinite linear rotation;
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);        
+    }
+
+    25%{
+        transform: rotate(90deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+/* EX 11 */
+.ex-10-icon{
+    animation: 2s infinite linear rotation;
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);        
+    }
+
+    25%{
+        transform: rotate(90deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
