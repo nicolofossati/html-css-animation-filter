@@ -154,3 +154,44 @@
     }
 }
 
+
+
+/* EX 12 */
+.ex-12-button:hover .ex-12-top-white{
+    animation: 2s  linear to_right_12;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: 2s  linear to_left_12;
+}
+
+
+@keyframes to_right_12{
+    0%{
+        left:20%;
+    }
+
+    50%{
+        left: 60%;
+    }
+
+    100%{
+        left: 20%;
+    }
+}
+
+
+@keyframes to_left_12{
+    0%{
+        right:20%;
+    }
+
+    50%{
+        right: 60%;
+    }
+
+    100%{
+        right:20%;
+    }
+}
+
