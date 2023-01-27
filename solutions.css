@@ -128,11 +128,11 @@
 
 
 /* EX 11 */
-.ex-10-icon{
-    animation: 2s infinite linear rotation;
+.ex-11-icon:hover{
+    animation: 2s linear rotation11;
 }
 
-@keyframes rotation{
+@keyframes rotation11{
     0%{
         transform: rotate(0deg);        
     }
@@ -150,7 +150,7 @@
     }
 
     100%{
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
 
