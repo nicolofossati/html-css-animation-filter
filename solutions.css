@@ -195,3 +195,80 @@
     }
 }
 
+
+
+
+/* EX 13 */
+.ex-13-button:hover .ex-13-top-white{
+    animation: 2s  linear top_13;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: 2s  linear bottom_13;
+}
+
+
+@keyframes top_13{
+    0%{
+        left:10%;
+        top: -10px;
+    }
+
+    20%{
+        left: 90%;
+        top: -10px;
+    }
+
+    40%{
+        left: 90%;
+        top: 55px;
+    }
+
+    60%{
+        left: -20%;
+        top: 55px;
+    }
+
+    80%{
+        left: -20%;
+        top: -10px;
+    }
+
+    100%{
+        left: 10%;
+        top: -10px;
+    }
+}
+
+
+@keyframes bottom_13{
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+    20%{
+        bottom: -10px;
+        right: 85%;
+    }
+
+    40%{
+        bottom: 55px;
+        right: 85%;
+    }
+
+    60%{
+        bottom: 55px;
+        right: -20%;
+    }
+
+    80%{
+        bottom: -10px;
+        right: -20%;
+    }
+
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+}
